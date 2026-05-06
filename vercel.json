@@ -1,15 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "BayernVsPSG_LiveMonitor_API.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "BayernVsPSG_LiveMonitor_API.html"
-    }
-  ]
+  "version": 2
 }
